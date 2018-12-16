@@ -65,7 +65,7 @@ h1{
     padding: none; 
     line-height: 50px;    
 }
-#about h2{
+ h2{
      color: #777;
 }
 
@@ -77,6 +77,7 @@ h1{
     text-align:center;
     padding:50px 80px;
     text-align: justify;
+    
 }
 
 
@@ -139,66 +140,7 @@ h1{
   background-size: cover;
 }
 
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 37em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-.bg-text1 {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 60em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-.bg-text2 {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 83em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-.bg-text3 {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 104em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
+
 /*FOOTER*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
@@ -284,10 +226,16 @@ section {
   transition:all .25s;
 }
 
-.footer-distributed .footer-right a:hover{transform:scale(1.1); 
-    -webkit-transform:scale(1.1);}
+.footer-distributed .footer-right a:hover
+{
+    transform:scale(1.1); 
+    transform:scale(1.1);
+}
 
-.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+.footer-distributed p.footer-links a:hover
+{
+    text-decoration:underline;
+}
 
 /* Media Queries */
 
@@ -352,7 +300,7 @@ label {
     
 }
 
-.h2contact{
+h2{
     text-align: center;
     font-size: 22px;
     font-family: sans-serif ;
@@ -458,3 +406,12 @@ Iframe{
     height: 1000px;
     width: 1899px;
 }
+#articles{
+    font-size: 22px;
+    color: salmon;
+   
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+
